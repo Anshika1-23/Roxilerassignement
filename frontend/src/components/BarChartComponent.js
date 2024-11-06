@@ -1,4 +1,3 @@
-// src/components/BarChartComponent.js
 import React, { useState, useEffect } from 'react';
 import { fetchBarChartData } from '../api';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
