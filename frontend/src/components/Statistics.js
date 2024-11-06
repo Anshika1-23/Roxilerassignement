@@ -1,4 +1,3 @@
-// src/components/Statistics.js
 import React, { useState, useEffect } from 'react';
 import { fetchStatistics } from '../api';
 import '../styles/Statistics.css';
