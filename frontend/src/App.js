@@ -1,4 +1,3 @@
-// src/App.js
 import React, { useState } from 'react';
 import TransactionTable from './components/TransactionTable';
 import Statistics from './components/Statistics';
@@ -7,7 +6,7 @@ import PieChartComponent from './components/PieChartComponent';
 import './App.css';
 
 const App = () => {
-  const [month, setMonth] = useState('March'); // default month
+  const [month, setMonth] = useState('March');
 
   return (
     <div className="App">
