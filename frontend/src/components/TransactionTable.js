@@ -1,4 +1,3 @@
-// src/components/TransactionTable.js
 import React, { useState, useEffect } from 'react';
 import { fetchTransactions } from '../api';
 import '../styles/TransactionTable.css';
