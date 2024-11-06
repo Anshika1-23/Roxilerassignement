@@ -1,4 +1,3 @@
-// src/components/PieChartComponent.js
 import React, { useState, useEffect } from 'react';
 import { fetchPieChartData } from '../api';
 import { PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer } from 'recharts';
